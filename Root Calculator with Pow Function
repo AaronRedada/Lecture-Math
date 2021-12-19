@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main() {
+	int x;
+
+	cout << "Enter the number to get its cube root and square root:" << endl;
+	cin >> x;
+	cout << endl;
+
+	cout << "The square root of " << x << " is " << pow(x, 0.5) << endl;
+	cout << "The cube root of " << x << " is " << pow(x, 0.33333333333);
+
+}
